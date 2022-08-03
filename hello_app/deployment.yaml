@@ -18,7 +18,7 @@ spec:
         app: hello-app
     spec:
       imagePullSecrets:
-      - name: regcred
+      - name: regcred1
       containers:
       - name: hello-deployment
         image: lucaboscato/hello-app:v1
